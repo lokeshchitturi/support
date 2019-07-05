@@ -1,0 +1,386 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12164928742,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.before(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Sample Form Filling",
+        "description": "",
+        "id": "validating-functionalities-in-a-website;sample-form-filling",
+        "after": [
+          {
+            "result": {
+              "duration": 4628252330,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3730653128,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to webpage",
+            "match": {
+              "location": "StepDefinition_FormFilling.user_navigates_to_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1026656865,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters the message with value \"Hello World\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hello World",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinition_FormFilling.user_enters_the_message_with_value(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 716099808,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks  on show Message button",
+            "match": {
+              "location": "StepDefinition_FormFilling.user_clicks_on_show_Message_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35111,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user entered message should be displayed",
+            "match": {
+              "location": "StepDefinition_FormFilling.user_entered_message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5032555972,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.before(Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Addition of two numbers",
+        "description": "",
+        "id": "validating-functionalities-in-a-website;addition-of-two-numbers;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1060547501,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1958654259,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user navigates to webpage",
+            "match": {
+              "location": "StepDefinition_FormFilling.user_navigates_to_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 490145787,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters first number as 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinition_FormFilling.user_enters_first_number_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 550039511,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters second number as 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinition_FormFilling.user_enters_second_number_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 469250694,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on button to get the sum of digits",
+            "match": {
+              "location": "StepDefinition_FormFilling.user_clicks_on_button_to_get_the_sum_of_digits()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Sample"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4187028278,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.before(Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Addition of two numbers",
+        "description": "",
+        "id": "validating-functionalities-in-a-website;addition-of-two-numbers;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 963763144,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2242678006,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user navigates to webpage",
+            "match": {
+              "location": "StepDefinition_FormFilling.user_navigates_to_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 543853294,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters first number as 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinition_FormFilling.user_enters_first_number_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 576329710,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters second number as 7",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinition_FormFilling.user_enters_second_number_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 441910274,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on button to get the sum of digits",
+            "match": {
+              "location": "StepDefinition_FormFilling.user_clicks_on_button_to_get_the_sum_of_digits()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Sample"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4434504502,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.before(Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Failed test case",
+        "description": "",
+        "id": "validating-functionalities-in-a-website;failed-test-case",
+        "after": [
+          {
+            "result": {
+              "duration": 1226520243,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2199666934,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user navigates to webpage",
+            "match": {
+              "location": "StepDefinition_FormFilling.user_navigates_to_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2817330,
+              "error_message": "java.lang.AssertionError: expected:\u003c1\u003e but was:\u003c2\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:555)\r\n\tat org.junit.Assert.assertEquals(Assert.java:542)\r\n\tat pageClasses.PageObject_FormFilling.failTC(PageObject_FormFilling.java:89)\r\n\tat stepdefinition.StepDefinition_FormFilling.user_enters_credentials(StepDefinition_FormFilling.java:58)\r\n\tat ✽.When user enters credentials(Sample.feature:26)\r\n",
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "user enters credentials",
+            "match": {
+              "location": "StepDefinition_FormFilling.user_enters_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user validates credentials",
+            "match": {
+              "location": "StepDefinition_FormFilling.user_validates_credentials()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@Sample"
+          }
+        ]
+      }
+    ],
+    "name": "Validating functionalities in a website",
+    "description": "",
+    "id": "validating-functionalities-in-a-website",
+    "keyword": "Feature",
+    "uri": "Sample.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Sample"
+      }
+    ]
+  }
+]

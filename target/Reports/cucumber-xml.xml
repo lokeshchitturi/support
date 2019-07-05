@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="48.646892">
+<testcase classname="Validating functionalities in a website" name="Sample Form Filling" time="22.266626">
+<system-out><![CDATA[Given user navigates to webpage.............................................passed
+When user enters the message with value "Hello World".......................passed
+And user clicks  on show Message button.....................................passed
+Then user entered message should be displayed...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating functionalities in a website" name="Addition of two numbers" time="9.561194">
+<system-out><![CDATA[Given user navigates to webpage.............................................passed
+When user enters first number as 2..........................................passed
+And user enters second number as 3..........................................passed
+Then user clicks on button to get the sum of digits.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating functionalities in a website" name="Addition of two numbers 2" time="8.955563">
+<system-out><![CDATA[Given user navigates to webpage.............................................passed
+When user enters first number as 4..........................................passed
+And user enters second number as 7..........................................passed
+Then user clicks on button to get the sum of digits.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating functionalities in a website" name="Failed test case" time="7.863509">
+<failure message="java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;2&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:743)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:555)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:542)&#13;&#10;&#9;at pageClasses.PageObject_FormFilling.failTC(PageObject_FormFilling.java:89)&#13;&#10;&#9;at stepdefinition.StepDefinition_FormFilling.user_enters_credentials(StepDefinition_FormFilling.java:58)&#13;&#10;&#9;at ✽.When user enters credentials(Sample.feature:26)&#13;&#10;"><![CDATA[Given user navigates to webpage.............................................passed
+When user enters credentials................................................failed
+Then user validates credentials.............................................skipped
+
+StackTrace:
+java.lang.AssertionError: expected:<1> but was:<2>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at pageClasses.PageObject_FormFilling.failTC(PageObject_FormFilling.java:89)
+	at stepdefinition.StepDefinition_FormFilling.user_enters_credentials(StepDefinition_FormFilling.java:58)
+	at ✽.When user enters credentials(Sample.feature:26)
+]]></failure>
+</testcase>
+</testsuite>
